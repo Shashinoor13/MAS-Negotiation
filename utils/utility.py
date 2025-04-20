@@ -36,4 +36,6 @@ class UtilityFunction:
             score += weight*normalized
         
         # Returns normalized evaluation between 0 and 1
-        return score/total_weight if total_weight != 0 else  0.0
+
+        eval= score/total_weight if total_weight != 0 else  0.0
+        return eval

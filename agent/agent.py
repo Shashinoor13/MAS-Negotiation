@@ -22,8 +22,11 @@ class Agent:
         self.utility_func : UtilityFunction = utility_func
         self.memory = [] #{id,offer,response,agent}
     
-    def propose_offer(self):
+    def propose_offer(self,weight,feature_ranges):
         # have a random offer generator
+        pass
+
+    def propose_counter_offer(self,offer):
         pass
 
     def evaluate_offer(self,offer)->float:
